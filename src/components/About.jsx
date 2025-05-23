@@ -213,6 +213,52 @@ Durante el año 2024, su liderazgo
       >
 
       </div>
+
+      {/*Nuestros aliados*/}
+<div
+  className="w-full max-w-[900px] flex flex-col items-center"
+  style={{
+    height: "7cm",
+    padding: "0.3cm 1cm",
+    margin: "0 auto",
+    backgroundColor: "#374151",  // azul claro suave
+  }}
+>
+  {/* Primera fila: imagen única centrada, altura 3cm */}
+  <div
+    className="w-full flex justify-center"
+    style={{ height: "3cm"}}
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}images/Compassionj.png`}
+      alt="Imagen principal"
+      style={{ height: "3cm", objectFit: "contain" }}
+    />
+  </div>
+
+  {/* Segunda fila: tres imágenes en fila, altura 3cm */}
+  <div
+    className="w-full flex justify-center gap-4"
+    style={{ height: "3cm" }}
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}images/cca.png`}
+      alt="Imagen 2"
+      style={{ height: "3cm", objectFit: "contain" }}
+    />
+    <img
+      src={`${import.meta.env.BASE_URL}images/b.png`}
+      alt="Imagen 3"
+      style={{ height: "3cm", objectFit: "contain" }}
+    />
+    <img
+      src={`${import.meta.env.BASE_URL}images/Sucre.png`}
+      alt="Imagen 4"
+      style={{ height: "3cm", objectFit: "contain" }}
+    />
+  </div>
+</div>
+
 {/*HISTORIA DE LA FUNDACION */}
 <div
   className="w-full px-6 py-12 text-gray-800 text-center bg-fixed bg-center"
@@ -265,6 +311,14 @@ Durante el año 2024, su liderazgo
     </div>
   </div>
 </div>
+
+
+
+<div
+  className="w-full px-6 py-1 text-gray-800 text-center bg-fixed bg-center"
+  style={{ backgroundColor: "#f0fdf4" }} // Verde claro armonioso
+></div>
+
 
  <Footer />
 
