@@ -7,7 +7,7 @@ import "./index.css";
 
 function App() {
   return (
-    <Router>
+  <Router basename="/DESSOL/">
       <div className="app-container">
         <Header />
         <ContentWrapper>

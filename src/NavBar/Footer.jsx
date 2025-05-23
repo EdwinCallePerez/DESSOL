@@ -53,7 +53,8 @@ style={{
             {/* Logo a la izquierda */}
   <div >
     <img
-  src="/images/FundacionDessol.png"
+     src={`${import.meta.env.BASE_URL}images/FundacionDessol.png`}
+
   alt="Logo de la empresa"
   style={{ width: '3cm', height: '3cm' }}
   className="object-contain"

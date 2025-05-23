@@ -53,6 +53,7 @@ export default function Home() {
         className="relative w-full bg-fixed bg-center bg-cover min-h-screen"
         style={{
           backgroundImage: `url(${import.meta.env.BASE_URL}images/color.jpg)`,
+       
         }}
       >
 
