@@ -1,6 +1,7 @@
 export default function Logo() {
   return (
-    <a href="/" className="flex items-center space-x-1">
+    <a href={`${import.meta.env.BASE_URL}`} className="flex items-center space-x-1">
+
       {/* Columna izquierda: Logo */}
       <img
       src={`${import.meta.env.BASE_URL}images/FundacionDessol.png`}
